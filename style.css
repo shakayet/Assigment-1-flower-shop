@@ -1,0 +1,155 @@
+/* Header style star */
+
+.header-container {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    gap: 100px;
+}
+
+.header-item {
+    flex: 1;
+}
+
+#header-item-details {
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+.header-caption {
+    color: #272727;
+    font-family: Lato;
+    font-size: 60px;
+    font-weight: 800;
+    margin-top: 130px;
+}
+
+.header-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn-primary {
+    padding: 10px 21px;
+    border-radius: 8px;
+    background: #eb4c6f;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header-photo {
+    margin-top: 50px;
+    width: 435px;
+    height: 650px;
+    flex-shrink: 0;
+}
+
+/* Main section style start from here */
+
+.feature {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.feature-deatils {
+    text-align: center;
+}
+
+.feature-caption {
+    color: #272727;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.feature-description {
+    width: 594px;
+    margin-left: 370px;
+}
+
+.feature-flower {
+    display: flex;
+    gap: 24px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.image-individual-first {
+    width: 310px;
+    height: 428px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.image-individual-second {
+    width: 310px;
+    height: 428px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.image-individual-third {
+    width: 310px;
+    height: 428px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.image-individual-third img {
+    width: 230px;
+    height: 427px;
+}
+
+.image-individual-second img {
+    width: 230px;
+    height: 350px;
+    padding: 20px;
+    padding-top: 60px;
+}
+
+.image-individual-first img {
+    width: 210px;
+    height: 328px;
+    margin-top: 100px;
+}
+
+
+/* main section two start from here */
+
+.support-container {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 80px 180px 100px;
+    padding: 30px;
+    justify-content: center;
+    border: 2px solid rgba(2, 93, 98, 0.15);
+    text-align: center;
+    gap: 50px;
+}
+
+.support-container img {
+    width: 66px;
+    height: 66px;
+}
+
+.support-caption {
+    color: rgba(39, 39, 39, 0.80);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+/* Hot deal start from here */
+
