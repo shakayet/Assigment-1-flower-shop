@@ -153,3 +153,38 @@
 
 /* Hot deal start from here */
 
+.hot-deal-container {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal-item {
+    margin-right: 100px;
+    margin-left: 200PX;
+    text-align: center;
+}
+
+.hot-deal-caption {
+    color: #272727;
+    font-family: Lato;
+    font-size: 31px;
+    font-weight: 700;
+}
+
+.red {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 31px;
+    font-weight: 700;
+}
+
+#hot-deal-item-first{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.hot-deal-item img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
